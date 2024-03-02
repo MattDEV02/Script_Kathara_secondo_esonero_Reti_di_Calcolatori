@@ -1,0 +1,12 @@
+$TTL   60000
+@               IN      SOA     kkkk.de.    root.kkkk.de. (
+                        2006031201 ; serial
+                        28800 ; refresh
+                        14400 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+@               IN      NS     kkkk.de.
+kkkk.de.        IN      A       2.2.2.2
+
+lde.de.         IN      A       2.2.2.3
